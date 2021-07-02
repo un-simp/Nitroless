@@ -1,10 +1,10 @@
 {
+  "path" : "emotes",
   "emotes" : [
     {
-      "name" : "test",
-      "type" : ".png"
+      "type" : ".png",
+      "name" : "test"
     }
   ],
-  "path" : "emotes",
   "name" : "Example Repo"
 }
