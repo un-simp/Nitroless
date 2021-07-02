@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E16031D8268F2AD0002D5EA4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16031D7268F2AD0002D5EA4 /* main.swift */; };
+		E16031E0268F2B45002D5EA4 /* URL+FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16031DF268F2B45002D5EA4 /* URL+FileManager.swift */; };
+		E16031E2268F2B90002D5EA4 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16031E1268F2B90002D5EA4 /* ImageProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		E16031D4268F2AD0002D5EA4 /* NitrolessAutomator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NitrolessAutomator; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16031D7268F2AD0002D5EA4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E16031DF268F2B45002D5EA4 /* URL+FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+FileManager.swift"; sourceTree = "<group>"; };
+		E16031E1268F2B90002D5EA4 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		E16031D6268F2AD0002D5EA4 /* NitrolessAutomator */ = {
 			isa = PBXGroup;
 			children = (
+				E16031DE268F2B37002D5EA4 /* Extensions */,
 				E16031D7268F2AD0002D5EA4 /* main.swift */,
 			);
 			path = NitrolessAutomator;
+			sourceTree = "<group>";
+		};
+		E16031DE268F2B37002D5EA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E16031DF268F2B45002D5EA4 /* URL+FileManager.swift */,
+				E16031E1268F2B90002D5EA4 /* ImageProcessor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16031D8268F2AD0002D5EA4 /* main.swift in Sources */,
+				E16031E2268F2B90002D5EA4 /* ImageProcessor.swift in Sources */,
+				E16031E0268F2B45002D5EA4 /* URL+FileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +263,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J8FJX4SRX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -258,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J8FJX4SRX;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
