@@ -1,36 +1,8 @@
 {
   "emotes" : [
     {
-      "name" : "oof",
-      "type" : ".png"
-    },
-    {
-      "type" : ".png",
-      "name" : "beet"
-    },
-    {
-      "name" : "raindog",
-      "type" : ".gif"
-    },
-    {
-      "type" : ".png",
-      "name" : "wheeze"
-    },
-    {
       "name" : "boris1",
       "type" : ".png"
-    },
-    {
-      "name" : "language",
-      "type" : ".png"
-    },
-    {
-      "type" : ".png",
-      "name" : "bamaco1n"
-    },
-    {
-      "name" : "cope",
-      "type" : ".gif"
     },
     {
       "type" : ".png",
@@ -41,30 +13,58 @@
       "type" : ".png"
     },
     {
-      "type" : ".png",
-      "name" : "hl"
+      "name" : "wheeze",
+      "type" : ".png"
     },
     {
-      "name" : "boris2",
+      "name" : "nb",
+      "type" : ".png"
+    },
+    {
+      "name" : "whitename",
+      "type" : ".png"
+    },
+    {
+      "name" : "bamaco2n",
       "type" : ".png"
     },
     {
       "type" : ".png",
-      "name" : "bamaco2n"
+      "name" : "boris2"
     },
     {
       "type" : ".png",
-      "name" : "nb"
+      "name" : "oof"
+    },
+    {
+      "name" : "caprisun",
+      "type" : ".gif"
     },
     {
       "type" : ".png",
-      "name" : "whitename"
+      "name" : "hl"
+    },
+    {
+      "name" : "cope",
+      "type" : ".gif"
+    },
+    {
+      "type" : ".png",
+      "name" : "language"
     },
     {
       "type" : ".gif",
-      "name" : "caprisun"
+      "name" : "raindog"
+    },
+    {
+      "type" : ".png",
+      "name" : "beet"
+    },
+    {
+      "name" : "bamaco1n",
+      "type" : ".png"
     }
   ],
-  "name" : "Example Repo",
-  "path" : "emotes"
+  "path" : "emotes",
+  "name" : "Example Repo"
 }
