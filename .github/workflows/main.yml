@@ -11,7 +11,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  NitrolessAutomator:
     # The type of runner that the job will run on
     runs-on: macos-latest
 
@@ -28,6 +28,6 @@ jobs:
       - name: Commit To Repo
         uses: EndBug/add-and-commit@v7.0.0
         with:
-          message: 'Add updated IPA'
+          message: 'Add Automated Run'
           signoff: true
       
