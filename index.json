@@ -1,7 +1,70 @@
 {
-  "path" : "emotes",
   "emotes" : [
-
+    {
+      "name" : "oof",
+      "type" : ".png"
+    },
+    {
+      "type" : ".png",
+      "name" : "beet"
+    },
+    {
+      "name" : "raindog",
+      "type" : ".gif"
+    },
+    {
+      "type" : ".png",
+      "name" : "wheeze"
+    },
+    {
+      "name" : "boris1",
+      "type" : ".png"
+    },
+    {
+      "name" : "language",
+      "type" : ".png"
+    },
+    {
+      "type" : ".png",
+      "name" : "bamaco1n"
+    },
+    {
+      "name" : "cope",
+      "type" : ".gif"
+    },
+    {
+      "type" : ".png",
+      "name" : "invade"
+    },
+    {
+      "name" : "rules",
+      "type" : ".png"
+    },
+    {
+      "type" : ".png",
+      "name" : "hl"
+    },
+    {
+      "name" : "boris2",
+      "type" : ".png"
+    },
+    {
+      "type" : ".png",
+      "name" : "bamaco2n"
+    },
+    {
+      "type" : ".png",
+      "name" : "nb"
+    },
+    {
+      "type" : ".png",
+      "name" : "whitename"
+    },
+    {
+      "type" : ".gif",
+      "name" : "caprisun"
+    }
   ],
-  "name" : "Example Repo"
+  "name" : "Example Repo",
+  "path" : "emotes"
 }
